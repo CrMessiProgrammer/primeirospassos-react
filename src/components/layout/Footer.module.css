@@ -1,0 +1,15 @@
+.social_list {
+    display: flex;                  /* vai deixar o item um do lado do outro */
+    justify-content: center;        /* centralizar na horizontal */
+    align-items: center;            /* centralizar na vertical */
+    list-style: none;               /* não deixar marca antes de cada item da lista */
+}
+
+.social_list li {
+    margin: 0 1em;                  /* pra afastar os itens um do outro(lateralmente) */
+}
+
+.social_list svg {
+    font-size: 1.5em;               /* tamanho dos ícones */
+    cursor: pointer;                /* vai simular um link */
+}
